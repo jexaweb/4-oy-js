@@ -102,5 +102,9 @@
 
 // 9)
 let ism = `George Raymond Richard Martin`;
-const a = ism.split("").map((item) => item(1));
-console.log(a.join());
+const a = ism
+  .split(" ")
+  .map((item) => item.charAt(0).toUpperCase())
+  .join(" ");
+
+console.log(a);

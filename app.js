@@ -101,10 +101,17 @@
 // }
 
 // 9)
-let ism = `George Raymond Richard Martin`;
-const a = ism
-  .split(" ")
-  .map((item) => item.charAt(0).toUpperCase())
-  .join(" ");
+// let ism = `George Raymond Richard Martin`;
+// const a = ism
+//   .split(" ")
+//   .map((item) => item.charAt(0).toUpperCase())
+//   .join(" ");
 
-console.log(a);
+// console.log(a);
+
+// 10)
+let n = 12345678910;
+let odds = numbers.filter((n) => n % 2 == 0);
+let evens = numbers.filter((n) => n % 2 != 0);
+
+console.log(odds, evens);

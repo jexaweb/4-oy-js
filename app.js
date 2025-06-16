@@ -47,15 +47,60 @@
 // console.log(ispalindrom(1678761));
 
 // 6)
-let son = 0;
-let yegndisi = 0;
-function getDividersNumbeAndSum(n) {
-  for (let i = 1; i <= n; i++) {
-    if (n % i === 0) {
-      son++;
-      yegndisi += i;
-    }
-  }
-  console.log(son, yegndisi);
-}
-getDividersNumbeAndSum(12);
+//
+// let son = 0;
+// let yegndisi = 0;
+// function getDividersNumbeAndSum(n) {
+//   for (let i = 1; i <= n; i++) {
+//     if (n % i === 0) {
+//       son++;
+//       yegndisi += i;
+//     }
+//   }
+//   console.log(son, yegndisi);
+// }
+// getDividersNumbeAndSum(12);
+
+// 7)
+// const rightAnswers = {
+//   1: "B",
+//   2: "A",
+//   3: "C",
+//   4: "D",
+//   5: "B",
+//   6: "C",
+//   7: "A",
+//   8: "D",
+//   9: "A",
+//   10: "B",
+// };
+// const myAnswers = {
+//   1: "C",
+//   2: "A",
+//   3: "D",
+//   4: "D",
+//   5: "B",
+//   6: "C",
+//   7: "B",
+//   8: "C",
+//   9: "A",
+//   10: "C",
+// };
+// let counter = 0;
+// for (let i in rightAnswers) {
+//   if (rightAnswers[i] == myAnswers[i]) {
+//     counter++;
+//   }
+// }
+// console.log(counter);
+// 8)
+
+// let a = ["Abdulaziz", "safarmurod", "o'rol", "jahongir"];
+// for (leti = 0; i < a.length; i++) {
+//   console.log();
+// }
+
+// 9)
+let ism = `George Raymond Richard Martin`;
+const a = ism.split("").map((item) => item(1));
+console.log(a.join());
